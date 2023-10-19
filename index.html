@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>노유성의 폴리텍 생활</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url("html 이미지 자료\209244351_1_1672503018_w{res}.jpg"); /* 배경 이미지 설정 */
+            background-size: cover; /* 배경 이미지를 화면에 맞게 확대/축소 */
+            background-position: center; /* 배경 이미지의 위치를 중앙에 설정 */
+            background-repeat: no-repeat; /* 배경 이미지 반복 비활성화 */
+        }
+        h1 {
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 20px solid darkgrey;
+            margin: 10px;
+            padding: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        /* styles.css */
+        /* 그리드 컨테이너 스타일 */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /* 세 개의 열을 동일한 너비로 설정 */
+            grid-auto-rows: auto; /* 그리드 항목의 높이를 자동으로 설정 */
+            gap: 20px; /* 열 사이의 간격 설정 */
+            margin: 20px; /* 여백 추가 */
+            align-self: stretch; /* 모든 그리드 컨테이너의 높이를 동일하게 설정 */
+        }
+        /* 그리드 항목 스타일 */
+        .grid-item {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0; /* 배경색 설정 */
+            border: 1px solid #ccc; /* 테두리 스타일 설정 */
+            font-size: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin-bottom: 10px;"><a href="index.html">노유성의 폴리텍 생활</a></h1>
+    <div class="grid-container">
+        <div class="grid-item"><a href="school_introduction.html">학교 그리고 학과 소개</a></div>
+        <div class="grid-item"><a href="introduce_professor.html">조혜정 교수님과 수업 소개</a></div>
+        <div class="grid-item"><a href="my_shool_life.html">나의 학교 생활</a></div>
+    </div>
+    <h2 style="text-align: center;">노유성의 학교 생활 소개 웹사이트에 오신걸 환영합니다!</h2>
+    <p style="text-align: center;">웹사이트 만들기 과제로 <strong>제 학교 생활을 소개</strong>하는 <u>웹사이트</u>를 만들어보았습니다.</p>
+    <p style="text-align: center;">위의 3가지 배너를 눌러 해당 내용으로 이동할 수 있습니다.</p>
+</body>
+</html>

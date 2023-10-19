@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>노유성의 폴리텍 생활</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url("html 이미지 자료\209244351_1_1672503018_w{res}.jpg"); /* 배경 이미지 설정 */
+            background-size: cover; /* 배경 이미지를 화면에 맞게 확대/축소 */
+            background-position: center; /* 배경 이미지의 위치를 중앙에 설정 */
+            background-repeat: no-repeat; /* 배경 이미지 반복 비활성화 */
+        }
+        h1 {
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 20px solid darkgrey;
+            margin: 10px;
+            padding: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        /* styles.css */
+        /* 그리드 컨테이너 스타일 */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /* 세 개의 열을 동일한 너비로 설정 */
+            grid-auto-rows: auto; /* 그리드 항목의 높이를 자동으로 설정 */
+            gap: 20px; /* 열 사이의 간격 설정 */
+            margin: 20px; /* 여백 추가 */
+            align-self: stretch; /* 모든 그리드 컨테이너의 높이를 동일하게 설정 */
+        }
+        /* 그리드 항목 스타일 */
+        .grid-item {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0; /* 배경색 설정 */
+            border: 1px solid #ccc; /* 테두리 스타일 설정 */
+            font-size: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            margin: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3개의 열을 동일한 너비로 설정 */
+            gap: 20px; /* 열 사이의 간격 설정 */
+        }
+        /* 액자 스타일 */
+        .frame {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        /* 사진 스타일 */
+        .frame img {
+            max-width: 100%; /* 사진 크기를 일정하게 유지 */
+            height: auto;
+        }
+        /* 텍스트 스타일 */
+        .caption {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin-bottom: 10px;"><a href="index.html">노유성의 폴리텍 생활</a></h1>
+    <div class="grid-container">
+        <div class="grid-item"><a href="school_introduction.html">학교 그리고 학과 소개</a></div>
+        <div class="grid-item"><a href="introduce_professor.html">조혜정 교수님과 수업 소개</a></div>
+        <div class="grid-item"><a href="my_shool_life.html">나의 학교 생활</a></div>
+    </div>
+    <h2 style="text-align: center; margin-bottom: 50px;">저희 인공지능 SW 융합과의 <u>"빛"</u> 조혜정 교수님을 소개합니다!</h2>
+    <p style="text-align: center; font-size: 25px;">학과 교수소개란에 있는 교수님의 프로필입니다</p>
+    <img src="html 이미지 자료\화면 캡처 2023-10-09 175759.png" alt="교수님 프로필">
+    <p style="text-align: center; font-size: 25px; margin-top: 100px; margin-bottom: 50px;">교수님께서는 1학기때 VR, 블렌더, 유니티, 파이썬 언어 등 흥미진진한 수업을 진행해주셨고</p>
+    <div class="gallery">
+        <div class="frame">
+            <img src="html 이미지 자료\KakaoTalk_20231017_142617539_14.jpg" alt="VR">
+            <p class="caption">VR 기기 피코를 이용한 VR 체험</p>
+        </div>
+        <div class="frame">
+            <img src="html 이미지 자료\20231020003014.png" alt="블렌더">
+            <p class="caption">블렌더 과제로 만든 나의 방</p>
+        </div>
+        <div class="frame">
+            <img src="html 이미지 자료\20231020003132.png" alt="유니티">
+            <p class="caption">유니티 과제로 만든 게임</p>
+        </div>
+    </div>
+    <p style="text-align: center; font-size: 25px; margin-top: 100px; margin-bottom: 50px;">2학기에는 HTML과 opencv 영상인식, 피그마를 통한 디자인 등 다양한 수업을 진행해주고 계십니다!</p>
+    <div class="gallery">
+        <div class="frame">
+            <img src="html 이미지 자료\20231020005351.png" alt="HTML">
+            <p class="caption">HTML 과제</p>
+        </div>
+        <div class="frame">
+            <img src="html 이미지 자료\스크린샷_2023-10-17_133159.png" alt="영상인식">
+            <p class="caption">opencv 영상인식 과제</p>
+        </div>
+        <div class="frame">
+            <img src="html 이미지 자료\20231020004708.png" alt="피그마">
+            <p class="caption">피그마를 이용한 디자인</p>
+        </div>
+    </div>
+</body>
+</html>

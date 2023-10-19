@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>노유성의 폴리텍 생활</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        h1 {
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 20px solid darkgrey;
+            margin: 0;
+            padding: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        ul {
+            border-right: 1px solid gray;
+            width: 300px;
+            display: inline;
+            margin: 10px;
+            padding: 20px;
+        }
+        /* styles.css */
+        /* 그리드 컨테이너 스타일 */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /* 세 개의 열을 동일한 너비로 설정 */
+            grid-auto-rows: auto; /* 그리드 항목의 높이를 자동으로 설정 */
+            gap: 20px; /* 열 사이의 간격 설정 */
+            margin: 20px; /* 여백 추가 */
+            align-self: stretch; /* 모든 그리드 컨테이너의 높이를 동일하게 설정 */
+        }
+        /* 그리드 항목 스타일 */
+        .grid-item {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0; /* 배경색 설정 */
+            border: 1px solid #ccc; /* 테두리 스타일 설정 */
+            font-size: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            margin-top: 100px;
+        }
+        /* hr 스타일 수정 */
+        hr {
+            height: 20px; /* 수평선의 두께 설정 */
+            background-color: #A3C6C4; /* 수평선의 색상 설정 */
+            border: none; /* 기본 테두리 제거 */
+            margin: 100px 0; /* 수평선 위 아래의 공백 조절 */
+        }
+        .video-container {
+            text-align: center; /* 텍스트를 중앙 정렬 */
+            margin-bottom: 50px;
+        }
+        /* 동영상 스타일 */
+        video {
+            display: block; /* 블록 레벨 요소로 설정 */
+            margin: 0 auto; /* 가운데 정렬 */
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="index.html">노유성의 폴리텍 생활</a></h1>
+    <div class="grid-container">
+        <div class="grid-item"><a href="school_introduction.html">학교 그리고 학과 소개</a></div>
+        <div class="grid-item"><a href="introduce_professor.html">조혜정 교수님과 수업 소개</a></div>
+        <div class="grid-item"><a href="my_shool_life.html">나의 학교 생활</a></div>
+    </div>
+        <h2 style="text-align: center;">제가 다니는 춘천 폴리텍 대학교를 소개합니다!</h2>
+        <p style="text-align: center; font-size: 30px; margin-bottom: 50px;">가장 먼저 저희 학교의 <strong>전체적인 시설</strong>을 소개드립니다.</p>
+        <img src="html 이미지 자료\1LCrQMkdcVz2ftwawp6G.jpg" alt="학교시설"><br><br>
+        <p style="text-align: center; font-size: 30px;">다음은 저희 학교의 다양한 <strong>수강 과정</strong>들 소개입니다.</p>
+        <br><div style="text-align: center; font-size: 30px; margin-bottom: 70px;">저희 학교의 세부적인 사항들이 궁금하시다면 <a href="https://www.kopo.ac.kr/chuncheon" target="_blank"><u>여기</u></a>를 클릭해주세요!</div>
+        <img src="html 이미지 자료\XnXtX5w7EcizoClIVF8m.png" alt="수강과정"><br><br>
+        <p style="text-align: center; font-size: 30px; margin-bottom: 50px;"><strong>학교식당</strong>도 저희 학교의 자랑거리입니다!</p>
+        <img src="html 이미지 자료\화면 캡처 2023-10-09 175521.png" alt="학교식당">
+        <hr>
+        <p style="text-align: center; font-size: 30px; margin-bottom: 30px;">다음으로는 저희 학과 <strong>인공지능SW융합과</strong>를 소개합니다!</p>
+        <br><div style="text-align: center; font-size: 30px; margin-bottom: 70px;">저희 학과에 대해 세부적인 정보가 필요하시다면 <a href="https://www.kopo.ac.kr/chuncheon/content.do?menu=13704" target="_blank"><u>여기</u></a>를 클릭해주세요!</div>
+        <div class="video-container">
+            <video width="640" height="360" controls>
+            <source src="https://youtu.be/j-dK5VcTJIo?si=osi5t4f5CRVedzQ_" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+        </div>
+        <img src="html 이미지 자료\g1qRCd2xdXRsS6WdyY5Y.jpg" alt="학과소개">
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>노유성의 폴리텍 생활</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        h1 {
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 20px solid darkgrey;
+            margin: 0;
+            padding: 20px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        ul {
+            border-right: 1px solid gray;
+            width: 300px;
+            display: inline;
+            margin: 10px;
+            padding: 20px;
+        }
+        /* styles.css */
+        /* 그리드 컨테이너 스타일 */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /* 세 개의 열을 동일한 너비로 설정 */
+            grid-auto-rows: auto; /* 그리드 항목의 높이를 자동으로 설정 */
+            gap: 20px; /* 열 사이의 간격 설정 */
+            margin: 20px; /* 여백 추가 */
+            align-self: stretch; /* 모든 그리드 컨테이너의 높이를 동일하게 설정 */
+        }
+        /* 그리드 항목 스타일 */
+        .grid-item {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0; /* 배경색 설정 */
+            border: 1px solid #ccc; /* 테두리 스타일 설정 */
+            font-size: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3개의 열을 동일한 너비로 설정 */
+            gap: 20px; /* 열 사이의 간격 설정 */
+        }
+        /* 액자 스타일 */
+        .frame {
+            border: 2px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        /* 사진 스타일 */
+        .frame img {
+            max-width: 100%; /* 사진 크기를 일정하게 유지 */
+            height: auto;
+        }
+        /* 텍스트 스타일 */
+        .caption {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="index.html">노유성의 폴리텍 생활</a></h1>
+    <div class="grid-container">
+        <div class="grid-item"><a href="school_introduction.html">학교 그리고 학과 소개</a></div>
+        <div class="grid-item"><a href="introduce_professor.html">조혜정 교수님과 수업 소개</a></div>
+        <div class="grid-item"><a href="my_shool_life.html">나의 학교 생활</a></div>
+    </div>
+        <h2 style="text-align: center;">지금까지의 학교생활을 <strong>사진</strong>으로 보여드리겠습니다!</h2>
+        <p style="text-align: center; font-size: 20px">갤러리를 눌러서 펼쳐 보실 수 있습니다.</p>
+        <details>
+            <summary style="font-size: 20px; text-align: center; margin-top: 50px; margin-bottom: 50px;"><strong>MT 갤러리</strong> 펼치기/접기</summary>
+            <div class="gallery">
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142907240_20.jpg" alt="MT1">
+                <p class="caption">MT회식</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142907240_21.jpg" alt="MT2">
+                <p class="caption">MT회식</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_140911355_02.jpg" alt="MT3">
+                <p class="caption">퀴즈타임</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_140911355_03.jpg" alt="MT4">
+                <p class="caption">열창하는 영진이형</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_140911355_04.jpg" alt="MT5">
+                <p class="caption">열창하는 영진이형</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_140911355.jpg" alt="MT6">
+                <p class="caption">MT마무리</p>
+              </div>
+              <!-- 다른 사진 프레임들 추가 -->
+            </div>
+          </details>
+
+          <details>
+            <summary style="font-size: 20px; text-align: center; margin-top: 50px; margin-bottom: 50px;"><strong>체육대회</strong> 갤러리 펼치기/접기</summary>
+            <div class="gallery">
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142907240_01.jpg" alt="체육대회1">
+                <p class="caption">피구</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142907240_08.jpg" alt="체육대회2">
+                <p class="caption">피구</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142617539_28.jpg" alt="체육대회3">
+                <p class="caption">2인3각</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142617539_26.jpg" alt="체육대회4">
+                <p class="caption">계주</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142617539_24.jpg" alt="체육대회5">
+                <p class="caption">계주</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142617539_21.jpg" alt="체육대회6">
+                <p class="caption">마무리 및 휴식</p>
+              </div>
+              <!-- 다른 사진 프레임들 추가 -->
+            </div>
+          </details>
+
+          <details>
+            <summary style="font-size: 20px; text-align: center; margin-top: 50px; margin-bottom: 50px;"><strong>그 외</strong> 갤러리 펼치기/접기</summary>
+            <div class="gallery">
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142338118_18.jpg" alt="딥레이서 연습">
+                <p class="caption">딥레이서 연습</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20230917_183446157_05.jpg" alt="딥레이서">
+                <p class="caption">딥레이서 4위 우수상 수상</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142617539_02.jpg" alt="봉사">
+                <p class="caption">저수지 쓰레기 청소 갔을때</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142617539.jpg" alt="영진이형">
+                <p class="caption">한가득 주우신 영진이형</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20230926_165038153.jpg" alt="보드게임 뱅">
+                <p class="caption">요즘 다같이 빠져서 하는 보드게임 뱅</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142617539_16.jpg" alt="스승의날">
+                <p class="caption">스승의 날</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142338118_26.jpg" alt="회식">
+                <p class="caption">회식</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142338118_29.jpg" alt="회식">
+                <p class="caption">회식</p>
+              </div>
+              <div class="frame">
+                <img src="html 이미지 자료\KakaoTalk_20231017_142338118_19.jpg" alt="마무리">
+                <p class="caption">1학기 마무리</p>
+              </div>
+              <!-- 다른 사진 프레임들 추가 -->
+            </div>
+          </details>
+</body>
+</html>
